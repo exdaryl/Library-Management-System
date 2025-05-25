@@ -29,7 +29,7 @@ The project uses a database named `library` with the following tables:
 
 ### 2. Configure the application
 - Open the project in Visual Studio 2022.
-- Update the database connection string in app.config or appsettings.json with your server name, database name, and credentials. For example:
+- Update the database connection string in *Database.cs* with your MySQL credentials:
 
 ```csharp
 // Database.cs
